@@ -1,0 +1,168 @@
+C:\Users\hi\Desktop\WpfApp1\bin\Debug\WpfApp1.exe.config
+C:\Users\hi\Desktop\WpfApp1\bin\Debug\WpfApp1.exe
+C:\Users\hi\Desktop\WpfApp1\bin\Debug\WpfApp1.pdb
+C:\Users\hi\Desktop\WpfApp1\obj\Debug\WpfApp1.csprojAssemblyReference.cache
+C:\Users\hi\Desktop\WpfApp1\obj\Debug\MainWindow.g.cs
+C:\Users\hi\Desktop\WpfApp1\obj\Debug\App.g.cs
+C:\Users\hi\Desktop\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+C:\Users\hi\Desktop\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.lref
+C:\Users\hi\Desktop\WpfApp1\obj\Debug\MainWindow.baml
+C:\Users\hi\Desktop\WpfApp1\obj\Debug\WpfApp1.g.resources
+C:\Users\hi\Desktop\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
+C:\Users\hi\Desktop\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource.cache
+C:\Users\hi\Desktop\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
+C:\Users\hi\Desktop\WpfApp1\obj\Debug\WpfApp1.exe
+C:\Users\hi\Desktop\WpfApp1\obj\Debug\WpfApp1.pdb
+C:\Users\hi\Desktop\WpfApp1\obj\Debug\signup.g.cs
+C:\Users\hi\Desktop\WpfApp1\obj\Debug\signup.baml
+C:\Users\Arash\Desktop\Sixth semester\WpfApp1\bin\Debug\WpfApp1.exe.config
+C:\Users\Arash\Desktop\Sixth semester\WpfApp1\bin\Debug\WpfApp1.exe
+C:\Users\Arash\Desktop\Sixth semester\WpfApp1\bin\Debug\WpfApp1.pdb
+C:\Users\Arash\Desktop\Sixth semester\WpfApp1\obj\Debug\WpfApp1.csprojAssemblyReference.cache
+C:\Users\Arash\Desktop\Sixth semester\WpfApp1\obj\Debug\MainWindow.g.cs
+C:\Users\Arash\Desktop\Sixth semester\WpfApp1\obj\Debug\signup.g.cs
+C:\Users\Arash\Desktop\Sixth semester\WpfApp1\obj\Debug\App.g.cs
+C:\Users\Arash\Desktop\Sixth semester\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+C:\Users\Arash\Desktop\Sixth semester\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.lref
+C:\Users\Arash\Desktop\Sixth semester\WpfApp1\obj\Debug\MainWindow.baml
+C:\Users\Arash\Desktop\Sixth semester\WpfApp1\obj\Debug\signup.baml
+C:\Users\Arash\Desktop\Sixth semester\WpfApp1\obj\Debug\WpfApp1.g.resources
+C:\Users\Arash\Desktop\Sixth semester\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
+C:\Users\Arash\Desktop\Sixth semester\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource.cache
+C:\Users\Arash\Desktop\Sixth semester\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
+C:\Users\Arash\Desktop\Sixth semester\WpfApp1\obj\Debug\WpfApp1.exe
+C:\Users\Arash\Desktop\Sixth semester\WpfApp1\obj\Debug\WpfApp1.pdb
+C:\Users\hi\Desktop\WpfApp1\obj\Debug\mainapp.g.cs
+C:\Users\hi\Desktop\WpfApp1\obj\Debug\mainapp.baml
+C:\Users\Arash\Desktop\WpfApp1\bin\Debug\WpfApp1.exe.config
+C:\Users\Arash\Desktop\WpfApp1\bin\Debug\WpfApp1.exe
+C:\Users\Arash\Desktop\WpfApp1\bin\Debug\WpfApp1.pdb
+C:\Users\Arash\Desktop\WpfApp1\obj\Debug\WpfApp1.csprojAssemblyReference.cache
+C:\Users\Arash\Desktop\WpfApp1\obj\Debug\mainapp.g.cs
+C:\Users\Arash\Desktop\WpfApp1\obj\Debug\MainWindow.g.cs
+C:\Users\Arash\Desktop\WpfApp1\obj\Debug\App.g.cs
+C:\Users\Arash\Desktop\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+C:\Users\Arash\Desktop\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.lref
+C:\Users\Arash\Desktop\WpfApp1\obj\Debug\mainapp.baml
+C:\Users\Arash\Desktop\WpfApp1\obj\Debug\MainWindow.baml
+C:\Users\Arash\Desktop\WpfApp1\obj\Debug\WpfApp1.g.resources
+C:\Users\Arash\Desktop\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
+C:\Users\Arash\Desktop\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource.cache
+C:\Users\Arash\Desktop\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
+C:\Users\Arash\Desktop\WpfApp1\obj\Debug\WpfApp1.exe
+C:\Users\Arash\Desktop\WpfApp1\obj\Debug\WpfApp1.pdb
+C:\Users\Arash\Desktop\WpfApp1\bin\Debug\EntityFramework.dll
+C:\Users\Arash\Desktop\WpfApp1\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Arash\Desktop\WpfApp1\bin\Debug\System.Data.SQLite.dll
+C:\Users\Arash\Desktop\WpfApp1\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\Arash\Desktop\WpfApp1\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\Arash\Desktop\WpfApp1\bin\Debug\EntityFramework.xml
+C:\Users\Arash\Desktop\WpfApp1\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Arash\Desktop\WpfApp1\bin\Debug\System.Data.SQLite.xml
+C:\Users\Arash\Desktop\WpfApp1\obj\Debug\WpfApp1.csproj.CopyComplete
+C:\Users\Arash\Desktop\Sixth semester\WpfApp1 - ketab foroshi\bin\Debug\WpfApp1.exe.config
+C:\Users\Arash\Desktop\Sixth semester\WpfApp1 - ketab foroshi\bin\Debug\WpfApp1.exe
+C:\Users\Arash\Desktop\Sixth semester\WpfApp1 - ketab foroshi\bin\Debug\WpfApp1.pdb
+C:\Users\Arash\Desktop\Sixth semester\WpfApp1 - ketab foroshi\bin\Debug\EntityFramework.dll
+C:\Users\Arash\Desktop\Sixth semester\WpfApp1 - ketab foroshi\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Arash\Desktop\Sixth semester\WpfApp1 - ketab foroshi\bin\Debug\System.Data.SQLite.dll
+C:\Users\Arash\Desktop\Sixth semester\WpfApp1 - ketab foroshi\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\Arash\Desktop\Sixth semester\WpfApp1 - ketab foroshi\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\Arash\Desktop\Sixth semester\WpfApp1 - ketab foroshi\bin\Debug\EntityFramework.xml
+C:\Users\Arash\Desktop\Sixth semester\WpfApp1 - ketab foroshi\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Arash\Desktop\Sixth semester\WpfApp1 - ketab foroshi\bin\Debug\System.Data.SQLite.xml
+C:\Users\Arash\Desktop\Sixth semester\WpfApp1 - ketab foroshi\obj\Debug\WpfApp1.csprojAssemblyReference.cache
+C:\Users\Arash\Desktop\Sixth semester\WpfApp1 - ketab foroshi\obj\Debug\mainapp.g.cs
+C:\Users\Arash\Desktop\Sixth semester\WpfApp1 - ketab foroshi\obj\Debug\MainWindow.g.cs
+C:\Users\Arash\Desktop\Sixth semester\WpfApp1 - ketab foroshi\obj\Debug\App.g.cs
+C:\Users\Arash\Desktop\Sixth semester\WpfApp1 - ketab foroshi\obj\Debug\WpfApp1_MarkupCompile.cache
+C:\Users\Arash\Desktop\Sixth semester\WpfApp1 - ketab foroshi\obj\Debug\WpfApp1_MarkupCompile.lref
+C:\Users\Arash\Desktop\Sixth semester\WpfApp1 - ketab foroshi\obj\Debug\mainapp.baml
+C:\Users\Arash\Desktop\Sixth semester\WpfApp1 - ketab foroshi\obj\Debug\MainWindow.baml
+C:\Users\Arash\Desktop\Sixth semester\WpfApp1 - ketab foroshi\obj\Debug\WpfApp1.g.resources
+C:\Users\Arash\Desktop\Sixth semester\WpfApp1 - ketab foroshi\obj\Debug\WpfApp1.Properties.Resources.resources
+C:\Users\Arash\Desktop\Sixth semester\WpfApp1 - ketab foroshi\obj\Debug\WpfApp1.csproj.GenerateResource.cache
+C:\Users\Arash\Desktop\Sixth semester\WpfApp1 - ketab foroshi\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
+C:\Users\Arash\Desktop\Sixth semester\WpfApp1 - ketab foroshi\obj\Debug\WpfApp1.csproj.CopyComplete
+C:\Users\Arash\Desktop\Sixth semester\WpfApp1 - ketab foroshi\obj\Debug\WpfApp1.exe
+C:\Users\Arash\Desktop\Sixth semester\WpfApp1 - ketab foroshi\obj\Debug\WpfApp1.pdb
+C:\Users\Arash\Desktop\Sixth semester\WpfApp1 - ketab foroshi\obj\Debug\AddBook.g.cs
+C:\Users\Arash\Desktop\Sixth semester\WpfApp1 - ketab foroshi\obj\Debug\ShowBooks.g.cs
+C:\Users\Arash\Desktop\Sixth semester\WpfApp1 - ketab foroshi\obj\Debug\AddBook.baml
+C:\Users\Arash\Desktop\Sixth semester\WpfApp1 - ketab foroshi\obj\Debug\ShowBooks.baml
+C:\Users\Arash\Desktop\Sixth semester\WpfApp1 - ketab foroshi\obj\Debug\MessageYesNo.g.cs
+C:\Users\Arash\Desktop\Sixth semester\WpfApp1 - ketab foroshi\obj\Debug\MessageYesNo.baml
+C:\Users\Arash\Desktop\Sixth semester\WpfApp1 - ketab foroshi\obj\Debug\MessageOk.g.cs
+C:\Users\Arash\Desktop\Sixth semester\WpfApp1 - ketab foroshi\obj\Debug\MessageOk.baml
+F:\refrences\software engineering\phase 2\WPF app\bin\Debug\WpfApp1.exe.config
+F:\refrences\software engineering\phase 2\WPF app\bin\Debug\WpfApp1.exe
+F:\refrences\software engineering\phase 2\WPF app\bin\Debug\WpfApp1.pdb
+F:\refrences\software engineering\phase 2\WPF app\bin\Debug\EntityFramework.dll
+F:\refrences\software engineering\phase 2\WPF app\bin\Debug\EntityFramework.SqlServer.dll
+F:\refrences\software engineering\phase 2\WPF app\bin\Debug\System.Data.SQLite.dll
+F:\refrences\software engineering\phase 2\WPF app\bin\Debug\System.Data.SQLite.EF6.dll
+F:\refrences\software engineering\phase 2\WPF app\bin\Debug\System.Data.SQLite.Linq.dll
+F:\refrences\software engineering\phase 2\WPF app\bin\Debug\EntityFramework.xml
+F:\refrences\software engineering\phase 2\WPF app\bin\Debug\EntityFramework.SqlServer.xml
+F:\refrences\software engineering\phase 2\WPF app\bin\Debug\System.Data.SQLite.xml
+F:\refrences\software engineering\phase 2\WPF app\obj\Debug\WpfApp1.csprojAssemblyReference.cache
+F:\refrences\software engineering\phase 2\WPF app\obj\Debug\AddBook.g.cs
+F:\refrences\software engineering\phase 2\WPF app\obj\Debug\mainapp.g.cs
+F:\refrences\software engineering\phase 2\WPF app\obj\Debug\MainWindow.g.cs
+F:\refrences\software engineering\phase 2\WPF app\obj\Debug\MessageOk.g.cs
+F:\refrences\software engineering\phase 2\WPF app\obj\Debug\MessageYesNo.g.cs
+F:\refrences\software engineering\phase 2\WPF app\obj\Debug\ShowBooks.g.cs
+F:\refrences\software engineering\phase 2\WPF app\obj\Debug\App.g.cs
+F:\refrences\software engineering\phase 2\WPF app\obj\Debug\WpfApp1_MarkupCompile.cache
+F:\refrences\software engineering\phase 2\WPF app\obj\Debug\WpfApp1_MarkupCompile.lref
+F:\refrences\software engineering\phase 2\WPF app\obj\Debug\AddBook.baml
+F:\refrences\software engineering\phase 2\WPF app\obj\Debug\mainapp.baml
+F:\refrences\software engineering\phase 2\WPF app\obj\Debug\MainWindow.baml
+F:\refrences\software engineering\phase 2\WPF app\obj\Debug\MessageOk.baml
+F:\refrences\software engineering\phase 2\WPF app\obj\Debug\MessageYesNo.baml
+F:\refrences\software engineering\phase 2\WPF app\obj\Debug\ShowBooks.baml
+F:\refrences\software engineering\phase 2\WPF app\obj\Debug\WpfApp1.g.resources
+F:\refrences\software engineering\phase 2\WPF app\obj\Debug\WpfApp1.Properties.Resources.resources
+F:\refrences\software engineering\phase 2\WPF app\obj\Debug\WpfApp1.csproj.GenerateResource.cache
+F:\refrences\software engineering\phase 2\WPF app\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
+F:\refrences\software engineering\phase 2\WPF app\obj\Debug\WpfApp1.csproj.CopyComplete
+F:\refrences\software engineering\phase 2\WPF app\obj\Debug\WpfApp1.exe
+F:\refrences\software engineering\phase 2\WPF app\obj\Debug\WpfApp1.pdb
+F:\refrences\software engineering\phase 2\WPF app\obj\Debug\Setting.g.cs
+F:\refrences\software engineering\phase 2\WPF app\obj\Debug\Setting.baml
+C:\Users\hi\Desktop\phase 2\WPF app\obj\Debug\WpfApp1.csprojAssemblyReference.cache
+C:\Users\hi\Desktop\phase 2\WPF app\obj\Debug\AddBook.g.cs
+C:\Users\hi\Desktop\phase 2\WPF app\obj\Debug\mainapp.g.cs
+C:\Users\hi\Desktop\phase 2\WPF app\obj\Debug\MainWindow.g.cs
+C:\Users\hi\Desktop\phase 2\WPF app\obj\Debug\MessageOk.g.cs
+C:\Users\hi\Desktop\phase 2\WPF app\obj\Debug\MessageYesNo.g.cs
+C:\Users\hi\Desktop\phase 2\WPF app\obj\Debug\Setting.g.cs
+C:\Users\hi\Desktop\phase 2\WPF app\obj\Debug\ShowBooks.g.cs
+C:\Users\hi\Desktop\phase 2\WPF app\obj\Debug\App.g.cs
+C:\Users\hi\Desktop\phase 2\WPF app\obj\Debug\WpfApp1_MarkupCompile.cache
+C:\Users\hi\Desktop\phase 2\WPF app\obj\Debug\WpfApp1_MarkupCompile.lref
+C:\Users\hi\Desktop\phase 2\WPF app\obj\Debug\WpfApp1.exe
+C:\Users\hi\Desktop\phase 2\WPF app\obj\Debug\WpfApp1.pdb
+C:\Users\hi\Desktop\phase 2\WPF app\bin\Debug\WpfApp1.exe.config
+C:\Users\hi\Desktop\phase 2\WPF app\bin\Debug\WpfApp1.exe
+C:\Users\hi\Desktop\phase 2\WPF app\bin\Debug\WpfApp1.pdb
+C:\Users\hi\Desktop\phase 2\WPF app\bin\Debug\EntityFramework.dll
+C:\Users\hi\Desktop\phase 2\WPF app\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\hi\Desktop\phase 2\WPF app\bin\Debug\System.Data.SQLite.dll
+C:\Users\hi\Desktop\phase 2\WPF app\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\hi\Desktop\phase 2\WPF app\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\hi\Desktop\phase 2\WPF app\bin\Debug\EntityFramework.xml
+C:\Users\hi\Desktop\phase 2\WPF app\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\hi\Desktop\phase 2\WPF app\bin\Debug\System.Data.SQLite.xml
+C:\Users\hi\Desktop\phase 2\WPF app\obj\Debug\AddBook.baml
+C:\Users\hi\Desktop\phase 2\WPF app\obj\Debug\mainapp.baml
+C:\Users\hi\Desktop\phase 2\WPF app\obj\Debug\MainWindow.baml
+C:\Users\hi\Desktop\phase 2\WPF app\obj\Debug\MessageOk.baml
+C:\Users\hi\Desktop\phase 2\WPF app\obj\Debug\MessageYesNo.baml
+C:\Users\hi\Desktop\phase 2\WPF app\obj\Debug\Setting.baml
+C:\Users\hi\Desktop\phase 2\WPF app\obj\Debug\ShowBooks.baml
+C:\Users\hi\Desktop\phase 2\WPF app\obj\Debug\WpfApp1.g.resources
+C:\Users\hi\Desktop\phase 2\WPF app\obj\Debug\WpfApp1.Properties.Resources.resources
+C:\Users\hi\Desktop\phase 2\WPF app\obj\Debug\WpfApp1.csproj.GenerateResource.cache
+C:\Users\hi\Desktop\phase 2\WPF app\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
+C:\Users\hi\Desktop\phase 2\WPF app\obj\Debug\WpfApp1.csproj.CopyComplete
