@@ -56,18 +56,18 @@ namespace WpfApp1
             //userNameBox.Text = reader2["user"]+"";
             userNameBox.Text = Properties.Settings.Default.RememberMe;
 
-            
+
 
             // قطعه کد زیر وقتی ترو میشود که وقتی یوزرنیمی در دیتابیس ذخیره شده بود، تیک گزینه مرا به خاطر بسپار را بزند
-            //if (reader2["user"]+"" !="")
-            //{
-            //    checkBox1.Background = (Brush)new BrushConverter().ConvertFrom("#454545");
-            //    chBox1 = true;
-            //}
+            if (userNameBox.Text != "")
+            {
+                checkBox1.Background = (Brush)new BrushConverter().ConvertFrom("#454545");
+                chBox1 = true;
+            }
 
         }
 
-  
+
 
         private void initDB()
         {

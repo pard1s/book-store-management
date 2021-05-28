@@ -1,0 +1,333 @@
+﻿<Window x:Class="WpfApp1.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="چاپ گزارش"
+        Height="600"
+        Width="800"
+        WindowStyle="None"
+        ResizeMode="CanResize"
+        WindowStartupLocation="CenterScreen">
+
+    <WindowChrome.WindowChrome>
+        <WindowChrome CaptionHeight="0"
+                      ResizeBorderThickness="3" />
+    </WindowChrome.WindowChrome>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30" />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <StackPanel Background="black"
+                    Opacity="0.1"
+                    Grid.RowSpan="2"></StackPanel>
+        <Grid Grid.Row="0"
+              MouseDown="windowMouseDownEvent"
+              Panel.ZIndex="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="50" />
+                <ColumnDefinition Width="50" />
+                <ColumnDefinition Width="50" />
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+            <StackPanel Grid.Column="0"
+                        Grid.ColumnSpan="4"
+                        Background="white"
+                        Opacity="0.8"
+                        Panel.ZIndex="0" />
+            <Button Click="Button_Exit_Click"
+                    BorderThickness="0"
+                    Grid.Column="0">
+
+                <Button.Background>
+                    <ImageBrush ImageSource="/img/close.png"
+                                Stretch="Uniform" />
+                </Button.Background>
+
+                <Button.Style>
+                    <Style TargetType="Button">
+                        <Setter Property="Cursor"
+                                Value="Hand" />
+                    </Style>
+                </Button.Style>
+                <Button.Template>
+                    <ControlTemplate TargetType="Button">
+                        <Border BorderBrush="#737373"
+                                Background="{TemplateBinding Background}">
+                            <ContentPresenter VerticalAlignment="Center"
+                                              HorizontalAlignment="Center" />
+                        </Border>
+                    </ControlTemplate>
+                </Button.Template>
+
+            </Button>
+
+            <Button Click="Button_Max_Click"
+                    BorderThickness="0"
+                    Grid.Column="1">
+
+                <Button.Background>
+                    <ImageBrush ImageSource="/img/maximize.png"
+                                Stretch="Uniform" />
+                </Button.Background>
+
+                <Button.Style>
+                    <Style TargetType="Button">
+                        <Setter Property="Cursor"
+                                Value="Hand" />
+                    </Style>
+                </Button.Style>
+                <Button.Template>
+                    <ControlTemplate TargetType="Button">
+                        <Border BorderBrush="#737373"
+                                Background="{TemplateBinding Background}">
+                            <ContentPresenter VerticalAlignment="Center"
+                                              HorizontalAlignment="Center" />
+                        </Border>
+                    </ControlTemplate>
+                </Button.Template>
+
+            </Button>
+
+            <Button Click="Button_Min_Click"
+                    BorderThickness="0"
+                    Grid.Column="2">
+
+                <Button.Background>
+                    <ImageBrush ImageSource="/img/minimize.png"
+                                Stretch="Uniform" />
+                </Button.Background>
+
+                <Button.Style>
+                    <Style TargetType="Button">
+                        <Setter Property="Cursor"
+                                Value="Hand" />
+                    </Style>
+                </Button.Style>
+                <Button.Template>
+                    <ControlTemplate TargetType="Button">
+                        <Border BorderBrush="#737373"
+                                Background="{TemplateBinding Background}">
+                            <ContentPresenter VerticalAlignment="Center"
+                                              HorizontalAlignment="Center" />
+                        </Border>
+                    </ControlTemplate>
+                </Button.Template>
+
+            </Button>
+
+            <TextBlock Text="سامانه مدیریت کتاب‌فروشی - چاپ گزارش "
+                       Grid.Column="3"
+                       FontSize="16"
+                       Foreground="Black"
+                       HorizontalAlignment="Right"
+                       VerticalAlignment="Center"
+                       x:Name="windowTitle"
+                       FontFamily="fonts/#IRANSANS"
+                       Opacity="1"
+                       Margin="0,0,10,0" />
+        </Grid>
+
+        <Grid Grid.Row="1">
+            <Button Content="چاپ گزارش"
+                    Panel.ZIndex="1"
+                    HorizontalAlignment="Right"
+                    VerticalAlignment="Top"
+                    Margin="0,30,50,0"
+                    Foreground="Black"
+                    FontSize="15"
+                    FontWeight="SemiBold"
+                    Grid.ColumnSpan="2"
+                    Grid.RowSpan="5"
+                    Grid.Row="4"
+                    x:Name="printButton"
+                    Cursor="Hand"
+                    Click="printButton_Click"
+                    IsDefault="True">
+                <Button.Style>
+                    <Style TargetType="Button">
+                        <Setter Property="TextElement.FontFamily"
+                                Value="fonts/#IRANSANS" />
+                        <Setter Property="Background"
+                                Value="#D7CCC8" />
+                        <Setter Property="Cursor"
+                                Value="Hand" />
+                        <Setter Property="Opacity"
+                                Value="0.7" />
+                    </Style>
+                </Button.Style>
+                <Button.Template>
+                    <ControlTemplate TargetType="Button">
+                        <Border Width="110"
+                                Height="40"
+                                CornerRadius="15"
+                                Background="{TemplateBinding Background}">
+                            <ContentPresenter VerticalAlignment="Center"
+                                              HorizontalAlignment="Center" />
+                        </Border>
+                    </ControlTemplate>
+                </Button.Template>
+            </Button>
+
+            <FlowDocumentReader ViewingMode="Scroll">
+                <FlowDocument FontFamily="fonts/#IRANSANS"
+                              x:Name="invoicePage">
+                    <Table CellSpacing="16"
+                           BorderBrush="Black"
+                           BorderThickness="1">
+                        <TableRowGroup>
+                            <TableRow>
+                                <TableCell>
+
+                                    <Paragraph TextAlignment="Center"
+                                               FontSize="14">
+                                        <Run />
+                                        <Floater HorizontalAlignment="Center"
+                                                 BaselineAlignment="TextBottom"
+                                                 Width="200">
+                                            <Paragraph FontSize="22"
+                                                       FontWeight="Bold">
+                                                جزئیات سفارش
+                                            </Paragraph>
+                                        </Floater>
+                                        <Floater HorizontalAlignment="Left"
+                                                 FontSize="13"
+                                                 Width="400">
+                                            <Table CellSpacing="1"
+                                                   Padding="5"
+                                                   TextAlignment="Right">
+                                                <TableRowGroup>
+                                                    <TableRow>
+                                                        <TableCell>
+                                                            <Paragraph TextAlignment="Left"
+                                                                       x:Name="dateText"
+                                                                       FontWeight="Bold">تاریخ سفارش: ۱۴۰۰/۱/۱</Paragraph>
+                                                        </TableCell>
+                                                    </TableRow>
+                                                </TableRowGroup>
+                                                <TableRowGroup>
+                                                    <TableRow>
+                                                        <TableCell>
+
+                                                            <Paragraph TextAlignment="Left"
+                                                                       x:Name="idText"
+                                                                       FontWeight="Bold">شماره سفارش: ۱۰۰۴</Paragraph>
+
+                                                        </TableCell>
+                                                    </TableRow>
+                                                </TableRowGroup>
+                                            </Table>
+                                        </Floater>
+                                    </Paragraph>
+                                    <Paragraph />
+                                    <Paragraph />
+
+
+                                    <Paragraph TextAlignment="Right"
+                                               FontSize="13"
+                                               x:Name="nameText">نام مشتری: آرش احمدی</Paragraph>
+                                    <Paragraph TextAlignment="Right"
+                                               FontSize="13"
+                                               x:Name="phoneText">شماره تماس: 09123456789</Paragraph>
+                                    <Paragraph TextAlignment="Right"
+                                               FontSize="13"
+                                               x:Name="addressText">آدرس: سنندج، ویلاشهر، خیابان آبشار، کوچه شبنم 2</Paragraph>
+
+                                    <Table CellSpacing="0"
+                                           Padding="5,5,5,0"
+                                           x:Name="tableContent"
+                                           FontSize="12"
+                                           TextAlignment="Right">
+                                        <Table.Columns>
+                                            <TableColumn  Width="100" />
+                                            <TableColumn  Width="200" />
+                                            <TableColumn  Width="80" />
+                                            <TableColumn />
+                                            <TableColumn  Width="60" />
+
+                                        </Table.Columns>
+                                        <Table.Resources>
+                                            <Style TargetType="TableCell">
+                                                <Setter Property="BorderBrush"
+                                                        Value="Black" />
+                                                <Setter Property="BorderThickness"
+                                                        Value="0.5" />
+                                            </Style>
+                                        </Table.Resources>
+                                        <TableRowGroup FontWeight="Bold">
+                                            <TableRow>
+                                                <TableCell>
+                                                    <Paragraph>قیمت</Paragraph>
+                                                </TableCell>
+                                                <TableCell>
+                                                    <Paragraph>بارکد</Paragraph>
+                                                </TableCell>
+                                                <TableCell>
+                                                    <Paragraph>تعداد</Paragraph>
+                                                </TableCell>
+                                                <TableCell>
+                                                    <Paragraph>نام کتاب</Paragraph>
+                                                </TableCell>
+                                                <TableCell>
+                                                    <Paragraph>ردیف</Paragraph>
+                                                </TableCell>
+                                            </TableRow>
+                                        </TableRowGroup>
+
+                                    </Table>
+
+                                    <Table Padding="0"
+                                           CellSpacing="0"
+                                           FontSize="10"
+                                           TextAlignment="Left">
+                                        <TableRowGroup>
+                                            <TableRow>
+                                                <TableCell>
+                                                    <Paragraph x:Name="totalPriceText"
+                                                               FontSize="14"
+                                                               FontWeight="Bold">
+                                                        جمع کل: 90000 تومان
+                                                    </Paragraph>
+                                                </TableCell>
+
+                                            </TableRow>
+                                        </TableRowGroup>
+                                    </Table>
+
+                                    <Paragraph TextAlignment="Center"
+                                               FontSize="14">
+                                        <Run />
+                                        <Floater HorizontalAlignment="Left"
+                                                 Margin="0"
+                                                 FontSize="13"
+                                                 Width="400">
+                                            <Paragraph FontWeight="Bold">امضاء خریدار</Paragraph>
+                                        </Floater>
+                                        <Floater HorizontalAlignment="Right"
+                                                 Margin="0"
+                                                 FontSize="13"
+                                                 Width="400">
+                                            <Paragraph FontWeight="Bold">امضاء فروشنده</Paragraph>
+                                        </Floater>
+                                    </Paragraph>
+
+
+
+
+
+
+                                </TableCell>
+                            </TableRow>
+                        </TableRowGroup>
+                    </Table>
+
+
+                </FlowDocument>
+            </FlowDocumentReader>
+        </Grid>
+    </Grid>
+</Window>

@@ -21,9 +21,12 @@
                 </Grid.ColumnDefinitions>
                 <Image Grid.Column="1" Source="/img/question.png" Width="64" HorizontalAlignment="Right" Margin="0,30,40,0"/>
                 <TextBlock x:Name="msgBoxText" Grid.Column="0"
-                                   FontSize="15" Foreground="#404040" 
+                               FontSize="15" Foreground="#404040" 
+                               TextWrapping="Wrap"
+                           Width="230"
                                HorizontalAlignment="Right"
                                VerticalAlignment="Center"
+                               TextAlignment="Right"
                                FontFamily="fonts/#IRANSANS" Opacity="1"
                                FontWeight="SemiBold"
                                Margin="0,40,0,0" />

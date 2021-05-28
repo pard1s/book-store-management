@@ -166,3 +166,44 @@ C:\Users\hi\Desktop\phase 2\WPF app\obj\Debug\WpfApp1.Properties.Resources.resou
 C:\Users\hi\Desktop\phase 2\WPF app\obj\Debug\WpfApp1.csproj.GenerateResource.cache
 C:\Users\hi\Desktop\phase 2\WPF app\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
 C:\Users\hi\Desktop\phase 2\WPF app\obj\Debug\WpfApp1.csproj.CopyComplete
+C:\Users\Arash\Source\Repos\pard1s\ketab-foroshi\bin\Debug\WpfApp1.exe.config
+C:\Users\Arash\Source\Repos\pard1s\ketab-foroshi\bin\Debug\WpfApp1.exe
+C:\Users\Arash\Source\Repos\pard1s\ketab-foroshi\bin\Debug\WpfApp1.pdb
+C:\Users\Arash\Source\Repos\pard1s\ketab-foroshi\bin\Debug\EntityFramework.dll
+C:\Users\Arash\Source\Repos\pard1s\ketab-foroshi\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Arash\Source\Repos\pard1s\ketab-foroshi\bin\Debug\System.Data.SQLite.dll
+C:\Users\Arash\Source\Repos\pard1s\ketab-foroshi\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\Arash\Source\Repos\pard1s\ketab-foroshi\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\Arash\Source\Repos\pard1s\ketab-foroshi\bin\Debug\EntityFramework.xml
+C:\Users\Arash\Source\Repos\pard1s\ketab-foroshi\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Arash\Source\Repos\pard1s\ketab-foroshi\bin\Debug\System.Data.SQLite.xml
+C:\Users\Arash\Source\Repos\pard1s\ketab-foroshi\obj\Debug\WpfApp1.csprojAssemblyReference.cache
+C:\Users\Arash\Source\Repos\pard1s\ketab-foroshi\obj\Debug\AddBook.g.cs
+C:\Users\Arash\Source\Repos\pard1s\ketab-foroshi\obj\Debug\mainapp.g.cs
+C:\Users\Arash\Source\Repos\pard1s\ketab-foroshi\obj\Debug\MainWindow.g.cs
+C:\Users\Arash\Source\Repos\pard1s\ketab-foroshi\obj\Debug\MessageOk.g.cs
+C:\Users\Arash\Source\Repos\pard1s\ketab-foroshi\obj\Debug\MessageYesNo.g.cs
+C:\Users\Arash\Source\Repos\pard1s\ketab-foroshi\obj\Debug\Setting.g.cs
+C:\Users\Arash\Source\Repos\pard1s\ketab-foroshi\obj\Debug\ShowBooks.g.cs
+C:\Users\Arash\Source\Repos\pard1s\ketab-foroshi\obj\Debug\App.g.cs
+C:\Users\Arash\Source\Repos\pard1s\ketab-foroshi\obj\Debug\WpfApp1_MarkupCompile.cache
+C:\Users\Arash\Source\Repos\pard1s\ketab-foroshi\obj\Debug\WpfApp1_MarkupCompile.lref
+C:\Users\Arash\Source\Repos\pard1s\ketab-foroshi\obj\Debug\AddBook.baml
+C:\Users\Arash\Source\Repos\pard1s\ketab-foroshi\obj\Debug\mainapp.baml
+C:\Users\Arash\Source\Repos\pard1s\ketab-foroshi\obj\Debug\MainWindow.baml
+C:\Users\Arash\Source\Repos\pard1s\ketab-foroshi\obj\Debug\MessageOk.baml
+C:\Users\Arash\Source\Repos\pard1s\ketab-foroshi\obj\Debug\MessageYesNo.baml
+C:\Users\Arash\Source\Repos\pard1s\ketab-foroshi\obj\Debug\Setting.baml
+C:\Users\Arash\Source\Repos\pard1s\ketab-foroshi\obj\Debug\ShowBooks.baml
+C:\Users\Arash\Source\Repos\pard1s\ketab-foroshi\obj\Debug\WpfApp1.g.resources
+C:\Users\Arash\Source\Repos\pard1s\ketab-foroshi\obj\Debug\WpfApp1.Properties.Resources.resources
+C:\Users\Arash\Source\Repos\pard1s\ketab-foroshi\obj\Debug\WpfApp1.csproj.GenerateResource.cache
+C:\Users\Arash\Source\Repos\pard1s\ketab-foroshi\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
+C:\Users\Arash\Source\Repos\pard1s\ketab-foroshi\obj\Debug\WpfApp1.csproj.CopyComplete
+C:\Users\Arash\Source\Repos\pard1s\ketab-foroshi\obj\Debug\WpfApp1.exe
+C:\Users\Arash\Source\Repos\pard1s\ketab-foroshi\obj\Debug\WpfApp1.pdb
+C:\Users\Arash\source\repos\pard1s\ketab-foroshi\obj\Debug\CustomerOrder.g.cs
+C:\Users\Arash\source\repos\pard1s\ketab-foroshi\obj\Debug\CustomerOrder.baml
+C:\Users\Arash\source\repos\pard1s\ketab-foroshi\obj\Debug\App.baml
+C:\Users\Arash\Source\Repos\pard1s\ketab-foroshi\obj\Debug\Window1.g.cs
+C:\Users\Arash\Source\Repos\pard1s\ketab-foroshi\obj\Debug\Window1.baml

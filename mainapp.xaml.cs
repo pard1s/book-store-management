@@ -89,15 +89,15 @@ namespace WpfApp1
 
         private void Border_MouseLeftButtonUp(object sender, MouseButtonEventArgs e)
         {
-            AddBook addbook = new AddBook();
-            addbook.Show();
+            ShowBooks showBook = new ShowBooks();
+            showBook.Show();
             this.Close();
         }
 
         private void Border_MouseLeftButtonUp_1(object sender, MouseButtonEventArgs e)
         {
-            ShowBooks showbook = new ShowBooks();
-            showbook.Show();
+            ShowBooks showBook = new ShowBooks(1);
+            showBook.Show();
             this.Close();
         }
     }

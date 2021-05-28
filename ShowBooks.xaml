@@ -5,324 +5,528 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp1"
         mc:Ignorable="d"
-        Title="ShowBooks"  Height="750" Width="1280" WindowStyle="None" ResizeMode="CanResize"
+        Title="ShowBooks"
+        Height="750"
+        Width="1280"
+        WindowStyle="None"
+        ResizeMode="CanResize"
         WindowStartupLocation="CenterScreen">
     <Window.Background>
         <ImageBrush>
             <ImageBrush.ImageSource>
-                <BitmapImage UriSource="img/Image 5.jpg"/>
+                <BitmapImage UriSource="img/Image 5.jpg" />
             </ImageBrush.ImageSource>
         </ImageBrush>
     </Window.Background>
     <WindowChrome.WindowChrome>
-        <WindowChrome 
-        CaptionHeight="0"
-        ResizeBorderThickness="3" />
+        <WindowChrome CaptionHeight="0"
+                      ResizeBorderThickness="3" />
     </WindowChrome.WindowChrome>
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="30" />
             <RowDefinition />
         </Grid.RowDefinitions>
-        <StackPanel Background="white" Opacity="0.1"
-                    Grid.RowSpan="5" Grid.ColumnSpan="6"></StackPanel>
-        <Grid Grid.Row="0" MouseDown="windowMouseDownEvent" Panel.ZIndex="1" >
+        
+        <StackPanel Background="white"
+                    Opacity="0.1"
+                    Grid.RowSpan="5"
+                    Grid.ColumnSpan="6"></StackPanel>
+        <Grid Grid.Row="0"
+              MouseDown="windowMouseDownEvent"
+              Panel.ZIndex="1">
             <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="50"/>
-                <ColumnDefinition Width="50"/>
-                <ColumnDefinition Width="50"/>
-                <ColumnDefinition/>
+                <ColumnDefinition Width="50" />
+                <ColumnDefinition Width="50" />
+                <ColumnDefinition Width="50" />
+                <ColumnDefinition />
             </Grid.ColumnDefinitions>
-            <StackPanel Grid.Column="0" Grid.ColumnSpan="4" 
-                        Background="white" Opacity="0.8" 
+            <StackPanel Grid.Column="0"
+                        Grid.ColumnSpan="4"
+                        Background="white"
+                        Opacity="0.8"
                         Panel.ZIndex="0" />
-            <Button Click="Button_Exit_Click" BorderThickness="0" Grid.Column="0">
+            <Button Click="Button_Exit_Click"
+                    BorderThickness="0"
+                    Grid.Column="0">
 
                 <Button.Background>
-                    <ImageBrush ImageSource="/img/close.png" Stretch="Uniform"/>
+                    <ImageBrush ImageSource="/img/close.png"
+                                Stretch="Uniform" />
                 </Button.Background>
 
                 <Button.Style>
                     <Style TargetType="Button">
-                        <Setter Property="Cursor" Value="Hand" />
+                        <Setter Property="Cursor"
+                                Value="Hand" />
                     </Style>
                 </Button.Style>
                 <Button.Template>
                     <ControlTemplate TargetType="Button">
                         <Border BorderBrush="#737373"
-                                    Background="{TemplateBinding Background}">
+                                Background="{TemplateBinding Background}">
                             <ContentPresenter VerticalAlignment="Center"
-                            HorizontalAlignment="Center" />
+                                              HorizontalAlignment="Center" />
                         </Border>
                     </ControlTemplate>
                 </Button.Template>
 
             </Button>
 
-            <Button Click="Button_Max_Click" BorderThickness="0" Grid.Column="1">
+            <Button Click="Button_Max_Click"
+                    BorderThickness="0"
+                    Grid.Column="1">
 
                 <Button.Background>
-                    <ImageBrush ImageSource="/img/maximize.png" Stretch="Uniform"/>
+                    <ImageBrush ImageSource="/img/maximize.png"
+                                Stretch="Uniform" />
                 </Button.Background>
 
                 <Button.Style>
                     <Style TargetType="Button">
-                        <Setter Property="Cursor" Value="Hand" />
+                        <Setter Property="Cursor"
+                                Value="Hand" />
                     </Style>
                 </Button.Style>
                 <Button.Template>
                     <ControlTemplate TargetType="Button">
                         <Border BorderBrush="#737373"
-                                    Background="{TemplateBinding Background}">
+                                Background="{TemplateBinding Background}">
                             <ContentPresenter VerticalAlignment="Center"
-                            HorizontalAlignment="Center" />
+                                              HorizontalAlignment="Center" />
                         </Border>
                     </ControlTemplate>
                 </Button.Template>
 
             </Button>
 
-            <Button Click="Button_Min_Click" BorderThickness="0" Grid.Column="2">
+            <Button Click="Button_Min_Click"
+                    BorderThickness="0"
+                    Grid.Column="2">
 
                 <Button.Background>
-                    <ImageBrush ImageSource="/img/minimize.png" Stretch="Uniform"/>
+                    <ImageBrush ImageSource="/img/minimize.png"
+                                Stretch="Uniform" />
                 </Button.Background>
 
                 <Button.Style>
                     <Style TargetType="Button">
-                        <Setter Property="Cursor" Value="Hand" />
+                        <Setter Property="Cursor"
+                                Value="Hand" />
                     </Style>
                 </Button.Style>
                 <Button.Template>
                     <ControlTemplate TargetType="Button">
                         <Border BorderBrush="#737373"
-                                    Background="{TemplateBinding Background}">
+                                Background="{TemplateBinding Background}">
                             <ContentPresenter VerticalAlignment="Center"
-                            HorizontalAlignment="Center" />
+                                              HorizontalAlignment="Center" />
                         </Border>
                     </ControlTemplate>
                 </Button.Template>
 
             </Button>
 
-            <TextBlock Text="سامانه مدیریت کتاب‌فروشی - لیست کتاب‌ها" Grid.Column="3"
-                               FontSize="16" Foreground="Black" 
-                               HorizontalAlignment="Right"
-                               VerticalAlignment="Center"
-                               FontFamily="fonts/#IRANSANS" Opacity="1"
-                               Margin="0,0,10,0"/>
+            <TextBlock Text="سامانه مدیریت کتاب‌فروشی - لیست کتاب‌ها"
+                       Grid.Column="3"
+                       x:Name="titleWindow"
+                       FontSize="16"
+                       Foreground="Black"
+                       HorizontalAlignment="Right"
+                       VerticalAlignment="Center"
+                       FontFamily="fonts/#IRANSANS"
+                       Opacity="1"
+                       Margin="0,0,10,0" />
         </Grid>
-        <StackPanel Grid.Row="1">
+        <DockPanel Grid.Row="1">
             <Grid>
                 <Grid.RowDefinitions>
-                    <RowDefinition Height="95"/>
-                    <RowDefinition Height="50"/>
-                    <RowDefinition />
-                    <RowDefinition Height="25"/>
+                    <RowDefinition Height="95" />
+                    <RowDefinition Height="50" />
+                    <RowDefinition Height="*" />
+
                 </Grid.RowDefinitions>
                 <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="80"/>
-                    <ColumnDefinition Width="*"/>
-                    <ColumnDefinition Width="*"/>
-                    <ColumnDefinition Width="90"/>
-                    <ColumnDefinition Width="90"/>
-                    <ColumnDefinition Width="100"/>
+                    <ColumnDefinition Width="80" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="580" />
+                    <ColumnDefinition Width="90" />
+                    <ColumnDefinition Width="90" />
+                    <ColumnDefinition Width="100" />
                 </Grid.ColumnDefinitions>
-                
 
-                <StackPanel Grid.Column="0" Grid.Row="0"
-                        VerticalAlignment="Top" Margin="10, 10, 0, 0">
-                    <Grid>
-                        <Grid.ColumnDefinitions>
-                            <ColumnDefinition/>
-                        </Grid.ColumnDefinitions>
-                        <Border Background="White" Grid.Column="0" 
-                        Opacity="0.4" Width="50" Height="50"
-                        CornerRadius="100" Cursor="Hand"
-                        MouseLeftButtonUp="Border_MouseLeftButtonUp"
-                        BorderThickness="1" BorderBrush="#737373">
-                        </Border>
-                        <Image  Grid.Column="0" Source="img/asset1.png" 
-                        Width="50" Height="50" Cursor="Hand"
-                         MouseLeftButtonUp="Border_MouseLeftButtonUp"
-                        HorizontalAlignment="Center"
-                        VerticalAlignment="Center"
-                        Margin="0, 0, 3, 6" />
-                    </Grid>
-                </StackPanel>
-                <StackPanel Grid.Column="1" Grid.Row="0"
-                    VerticalAlignment="Top" Margin="5, 10, 0, 0"
-                    HorizontalAlignment="Left">
-                    <Grid>
-                        <Grid.ColumnDefinitions>
-                            <ColumnDefinition/>
-                        </Grid.ColumnDefinitions>
-                        <Border Background="White" Grid.Column="0"
-                        Opacity="0.4" Width="50" Height="50"
-                        CornerRadius="100"
-                        BorderThickness="1" BorderBrush="#737373">
-                        </Border>
-                        <Image Source="img/asset2.png" Width="50" Height="50"
-                        HorizontalAlignment="Center" Grid.Column="0"
-                        VerticalAlignment="Center"
-                        Margin="0, 0, 1, 6" />
-                    </Grid>
-                </StackPanel>
 
-                <StackPanel Grid.Row="0" Grid.Column="2" Width="400" Height="70"
-                 Margin="-600, 0, 0, 0"   >
+                <StackPanel Grid.Column="0"
+                            Grid.Row="0"
+                            VerticalAlignment="Top"
+                            Margin="10, 10, 0, 0"
+                            x:Name="num5Btn">
                     <Grid>
                         <Grid.ColumnDefinitions>
-                            <ColumnDefinition Width="50"/>
                             <ColumnDefinition />
                         </Grid.ColumnDefinitions>
-                        
+                        <Border Background="White"
+                                Grid.Column="0"
+                                Opacity="0.4"
+                                Width="50"
+                                Height="50"
+                                CornerRadius="100"
+                                Cursor="Hand"
+                                MouseLeftButtonUp="Border_MouseLeftButtonUp"
+                                BorderThickness="1"
+                                BorderBrush="#737373">
+                        </Border>
+                        <Image  Grid.Column="0"
+                                Source="img/asset1.png"
+                                Width="50"
+                                Height="50"
+                                Cursor="Hand"
+                                MouseLeftButtonUp="Border_MouseLeftButtonUp"
+                                HorizontalAlignment="Center"
+                                VerticalAlignment="Center"
+                                Margin="0, 0, 3, 6" />
+                    </Grid>
+                </StackPanel>
+                <StackPanel Grid.Column="1"
+                            Grid.Row="0"
+                            VerticalAlignment="Top"
+                            Margin="5, 10, 0, 0"
+                            HorizontalAlignment="Left"
+                            x:Name="num4Btn">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition />
+                        </Grid.ColumnDefinitions>
+                        <Border Background="White"
+                                Grid.Column="0"
+                                Opacity="0.4"
+                                Width="50"
+                                Height="50"
+                                CornerRadius="100"
+                                BorderThickness="1"
+                                BorderBrush="#737373">
+                        </Border>
+                        <Image Source="img/asset2.png"
+                               Width="50"
+                               Height="50"
+                               HorizontalAlignment="Center"
+                               Grid.Column="0"
+                               VerticalAlignment="Center"
+                               Margin="0, 0, 1, 6" />
                     </Grid>
                 </StackPanel>
 
-                <StackPanel Grid.Column="3" Grid.Row="0"
-                    VerticalAlignment="Top" Margin="40, 10, 0, 0"
-                    HorizontalAlignment="Left" >
+                <StackPanel Grid.Row="0"
+                            Grid.Column="2"
+                            Width="400"
+                            Height="70"
+                            Margin="-300, 0, 0, 0">
                     <Grid>
                         <Grid.ColumnDefinitions>
-                            <ColumnDefinition/>
+                            <ColumnDefinition Width="50" />
+                            <ColumnDefinition />
                         </Grid.ColumnDefinitions>
-                        <Border Background="White" Grid.Column="0"
-                        Opacity="0.4" Width="50" Height="50"
-                        CornerRadius="100"
-                        BorderThickness="1" BorderBrush="#737373">
+                        <Border BorderBrush="#737373"
+                                BorderThickness="1"
+                                CornerRadius="25"
+                                Background="White"
+                                Grid.ColumnSpan="2"
+                                Opacity="0.4"
+                                Height="50" />
+                        <Image Source="img/magnifying-glass.png"
+                               Grid.Column="0"
+                               HorizontalAlignment="Center"
+                               VerticalAlignment="Center"
+                               Width="35"
+                               Height="45"
+                               Margin="15,0, 0, 0" />
+                        <Border Grid.Column="1"
+                                Width="1"
+                                Height="40"
+                                Background="black"
+                                HorizontalAlignment="left"
+                                VerticalAlignment="Center"
+                                Margin="10,0, 0, 0" />
+                        <TextBox    Grid.Column="1"
+                                    x:Name="searchTextBox"
+                                    Text=""
+                                    Width="300"
+                                    FontSize="20"
+                                    TextAlignment="Right"
+                                    BorderThickness="0"
+                                    Background="Transparent"
+                                    Foreground="#737373"
+                                    HorizontalAlignment="Right"
+                                    VerticalAlignment="Center"
+                                    FontFamily="fonts/#IRANSANS"
+                                    FontWeight="SemiBold"
+                                    Margin="0, 0, 30, 0"
+                                    TextChanged="TextBox_TextChanged" />
+
+                    </Grid>
+                </StackPanel>
+
+                <StackPanel Grid.Column="3"
+                            Grid.Row="0"
+                            VerticalAlignment="Top"
+                            Margin="40, 10, 0, 0"
+                            HorizontalAlignment="Left"
+                            x:Name="num3Btn">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition />
+                        </Grid.ColumnDefinitions>
+                        <Border Background="White"
+                                Grid.Column="0"
+                                Opacity="0.4"
+                                Width="50"
+                                Height="50"
+                                CornerRadius="100"
+                                BorderThickness="1"
+                                BorderBrush="#737373">
                         </Border>
                         <Image Source="img\notifications-bell-button.png"
-                       Width="30" Height="30"
-                        HorizontalAlignment="Center" Grid.Column="0"
-                        VerticalAlignment="Center"
-                        Margin="0, 2, 1, 6" />
+                               Width="30"
+                               Height="30"
+                               HorizontalAlignment="Center"
+                               Grid.Column="0"
+                               VerticalAlignment="Center"
+                               Margin="0, 2, 1, 6" />
                     </Grid>
                 </StackPanel>
-                <StackPanel Grid.Column="4" Grid.Row="0"
-                    VerticalAlignment="Top" Margin="30, 10, 0, 0"
-                    HorizontalAlignment="Left">
+                <StackPanel Grid.Column="4"
+                            Grid.Row="0"
+                            VerticalAlignment="Top"
+                            Margin="30, 10, 0, 0"
+                            HorizontalAlignment="Left"
+                            x:Name="num2Btn">
                     <Grid>
                         <Grid.ColumnDefinitions>
-                            <ColumnDefinition/>
+                            <ColumnDefinition />
                         </Grid.ColumnDefinitions>
-                        <Border Background="White" Grid.Column="0"
-                        Opacity="0.4" Width="50" Height="50"
-                        CornerRadius="100"
-                        BorderThickness="1" BorderBrush="#737373">
+                        <Border Background="White"
+                                Grid.Column="0"
+                                Opacity="0.4"
+                                Width="50"
+                                Height="50"
+                                CornerRadius="100"
+                                BorderThickness="1"
+                                BorderBrush="#737373">
                         </Border>
-                        <Image Source="img/user.png" Width="30" Height="30"
-                        HorizontalAlignment="Center" Grid.Column="0"
-                        VerticalAlignment="Center"
-                        Margin="0, 0, 1, 6" />
+                        <Image Source="img/user.png"
+                               Width="30"
+                               Height="30"
+                               HorizontalAlignment="Center"
+                               Grid.Column="0"
+                               VerticalAlignment="Center"
+                               Margin="0, 0, 1, 6" />
                     </Grid>
                 </StackPanel>
-                <StackPanel Grid.Column="5" Grid.Row="0"
-                    VerticalAlignment="Top" Margin="20, 10, 0, 0"
-                    HorizontalAlignment="Left">
+                <StackPanel Grid.Column="5"
+                            Grid.Row="0"
+                            VerticalAlignment="Top"
+                            Margin="20, 10, 0, 0"
+                            HorizontalAlignment="Left"
+                            x:Name="num1Btn">
                     <Grid>
                         <Grid.ColumnDefinitions>
-                            <ColumnDefinition/>
+                            <ColumnDefinition />
                         </Grid.ColumnDefinitions>
-                        <Border Background="White" Grid.Column="0"
-                        Opacity="0.4" Width="50" Height="50"
-                        CornerRadius="100"
-                        BorderThickness="1" BorderBrush="#737373">
+                        <Border Background="White"
+                                Grid.Column="0"
+                                Opacity="0.4"
+                                Width="50"
+                                Height="50"
+                                CornerRadius="100"
+                                BorderThickness="1"
+                                BorderBrush="#737373">
                         </Border>
-                        <Image Source="img/Line 8.png" Width="30" Height="30"
-                        HorizontalAlignment="Center" Grid.Column="0"
-                        VerticalAlignment="Center"
-                        Margin="0, 0, 1, 0" />
+                        <Image Source="img/Line 8.png"
+                               Width="30"
+                               Height="30"
+                               HorizontalAlignment="Center"
+                               Grid.Column="0"
+                               VerticalAlignment="Center"
+                               Margin="0, 0, 1, 0" />
                     </Grid>
                 </StackPanel>
 
 
-                <StackPanel Grid.Column="3" Grid.Row="1" Grid.ColumnSpan="3" HorizontalAlignment="Left" >
+                <StackPanel Grid.Column="2"
+                            
+                            Grid.Row="1"
+                            Grid.ColumnSpan="3"
+                            HorizontalAlignment="Right">
                     <Grid>
                         <Grid.ColumnDefinitions>
-                            <ColumnDefinition/>
-                            <ColumnDefinition/>
+                            <ColumnDefinition />
+                            <ColumnDefinition />
                         </Grid.ColumnDefinitions>
-                        <Image Source="img/books.png" Grid.Column="1" Width="35"
-                       Height="35" HorizontalAlignment="Left"/>
-                        <TextBlock Text="لیست کتاب‌ها" Grid.Column="0"
-                       FontSize="24" Foreground="white"
-                       HorizontalAlignment="right" VerticalAlignment="Center"
-                       FontFamily="fonts/#IRANSANS"
-                       FontWeight="Bold"/>
+                        <Image Source="img/books.png"
+                               Grid.Column="1"
+                               Width="35"
+                               Height="35"
+                               HorizontalAlignment="Left" />
+                        <TextBlock Text="لیست کتاب‌ها"
+                                   Grid.Column="0"
+                                   FontSize="24"
+                                   Margin="0,0,10,0"
+                                   Foreground="white"
+                                   x:Name="titleSection"
+                                   HorizontalAlignment="right"
+                                   VerticalAlignment="Center"
+                                   FontFamily="fonts/#IRANSANS"
+                                   FontWeight="Bold">
+                            <TextBlock.Effect>
+                                <DropShadowEffect BlurRadius="19.5"
+                                                  ShadowDepth="0" />
+                            </TextBlock.Effect>
+                        </TextBlock>
                     </Grid>
 
                 </StackPanel>
-                <StackPanel Grid.Row="2" Grid.Column="1" 
-                    Grid.ColumnSpan="2" Grid.RowSpan="2" Width="560"
-                    HorizontalAlignment="Right"
-                    Margin="0, 0, -70, 0">
+
+                <Grid Grid.Column="2"
+                      x:Name="amountGrid"
+                      Visibility="Hidden"
+                      Grid.Row="1"
+                      Width="180"
+                      Height="50"
+                      Grid.ColumnSpan="1"
+                      Margin="120,0,0,0"
+                      HorizontalAlignment="Left">
+                    <TextBlock Text=":تعداد"
+                               Grid.Row="1"
+                               Grid.Column="0"
+                               Margin="100,3.2,19,3.6"
+                               FontSize="18"
+                               Foreground="White"
+                               
+                               HorizontalAlignment="Center"
+                               VerticalAlignment="Center"
+                               FontFamily="fonts/#IRANSANS"
+                               FontWeight="Bold">
+                        <TextBlock.Effect>
+                            <DropShadowEffect BlurRadius="15"
+                                              Direction="0"
+                                              ShadowDepth="0" />
+                        </TextBlock.Effect>
+                    </TextBlock>
+                    <Border Background="Black"
+                            Opacity="0.3"
+                            HorizontalAlignment="Left"
+                            Width="95"
+                            Padding="5"
+                            CornerRadius="10"
+                            Height="35">
+                        <TextBox Background="Transparent"
+                                 BorderThickness="0"
+                                 x:Name="amountTextBox"
+                                 FontSize="20"
+                                 FontWeight="Bold"
+                                 TextAlignment="Center"
+                                 VerticalAlignment="Center"
+                                 FontFamily="fonts/#IRANSANS"
+                                 Foreground="White"
+                                 Text="1"/>
+                    </Border>
+                </Grid>
+
+                <StackPanel Grid.Column="2"
+                            
+                            Grid.Row="1"
+                            Width="120"
+                            Height="50"
+                            x:Name="addButtonTop"
+                            Grid.ColumnSpan="1"
+                            Margin="-10,0,0,0"
+                            HorizontalAlignment="Left">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition />
+                            <RowDefinition />
+                        </Grid.RowDefinitions>
+                        <Border Background="Black"
+                                Opacity="0.3"
+                                Width="120"
+                                Height="50"
+                                Grid.RowSpan="2"
+                                CornerRadius="10" />
+                        <Button Grid.RowSpan="2"
+                                x:Name="addBookBtn"
+                                Click="addBookBtn_Click"
+                                Panel.ZIndex="1"
+                                Background="Transparent"
+                                BorderThickness="0"
+                                Cursor="Hand">
+
+                            <Button.Template>
+                                <ControlTemplate TargetType="Button">
+                                    <Border BorderBrush="#737373"
+                                            CornerRadius="10"
+                                            Background="{TemplateBinding Background}">
+                                        <ContentPresenter VerticalAlignment="Center"
+                                                          HorizontalAlignment="Center" />
+                                    </Border>
+                                </ControlTemplate>
+                            </Button.Template>
+
+                        </Button>
+                        
+                        
+                        
+                        <Image Source="img/addd.png"
+                               Width="25"
+                               Height="25"
+                               HorizontalAlignment="Center" />
+                        <TextBlock Text="اضافه‌کردن کتاب"
+                                   Grid.Row="1"
+                                   Grid.Column="0"
+                                   Margin="20,3.2,19,3.6"
+                                   FontSize="12"
+                                   Foreground="White"
+                                   x:Name="addButtonText"
+                                   HorizontalAlignment="Center"
+                                   VerticalAlignment="Center"
+                                   FontFamily="fonts/#IRANSANS"
+                                   FontWeight="Bold" />
+                    </Grid>
 
                 </StackPanel>
 
+                <Border Padding="0,0,0,20"
+                        Grid.Column="1"
+                        Grid.Row="2"
+                        Grid.ColumnSpan="4"
+                        VerticalAlignment="Top">
+                    <DockPanel x:Name="listStackPanel">
+                        <ScrollViewer VerticalScrollBarVisibility="Auto"
+                                      x:Name="bookListScroll"
+                                      HorizontalAlignment="Right">
+                            <Grid x:Name="bookListGrid"
+                                  Margin="0,10,20,0">
+                            </Grid>
+                        </ScrollViewer>
+
+                    </DockPanel>
+                </Border>
                 <!--Book details-->
-                <DockPanel   Grid.Column="1" Grid.Row="2"  
-                     Grid.ColumnSpan="4" 
-                     VerticalAlignment="Top"
-                     Margin="0,0,0,0" x:Name="listStackPanel"
-                     >
-                    <ScrollViewer VerticalScrollBarVisibility="Auto"
-                          x:Name="bookListScroll" Height="600" 
-                          HorizontalAlignment="Right"
-                          Margin="0,10,25,0">
-
-                        <Grid x:Name="bookListGrid" Margin="0,0,20,0">
-                            <Grid.RowDefinitions>
-                                <RowDefinition Height="80"/>
 
 
-                            </Grid.RowDefinitions>
-                            <Border Background="#424242" Grid.Row="0"
-                        Opacity="0.7" Width="750" Height="70"
-                        CornerRadius="10" MouseUp="showBookIcon" Tag="item2" Cursor="Hand"
-                        BorderThickness="1"  HorizontalAlignment="Right" >
-                                <Grid>
-                                    <Grid.ColumnDefinitions>
-                                        <ColumnDefinition Width="50"/>
-                                        <ColumnDefinition Width="50"/>
-                                        <ColumnDefinition/>
-                                    </Grid.ColumnDefinitions>
-
-                                    <Image Grid.Column="0" Source="/img/ed.png" Width="32"/>
-                                    <Image Grid.Column="1" Source="/img/del.png" Width="32"/>
-                                    <Grid Grid.Column="2">
-                                        <Grid.RowDefinitions>
-                                            <RowDefinition/>
-                                            <RowDefinition/>
-                                        </Grid.RowDefinitions>
-                                        <TextBlock Text="شازده کوچولو" Grid.Row="0"
-                                       FontSize="18" Foreground="white"
-                                       HorizontalAlignment="right" VerticalAlignment="Center"
-                                       FontFamily="fonts/#IRANSANS" Margin="0,10,20,0"
-                                       FontWeight="Bold"/>
-
-                                        <TextBlock Text="نویسنده: آنتوان دو سنت اگزوپری، ناشر: نگاه، سال انتشار: 1398" Grid.Row="1"
-                                       FontSize="13" Foreground="white"
-                                       HorizontalAlignment="right" VerticalAlignment="Center"
-                                       FontFamily="fonts/#IRANSANS" Margin="0,0,20,0"
-                                       FontWeight="Bold"/>
-                                    </Grid>
-                                </Grid>
-
-                            </Border>
-                        </Grid>
-                    </ScrollViewer>
-
-                </DockPanel>
-
-                <TextBlock Text="کتابی جهت نمایش وجود ندارد" Grid.Column="0"
-                       Grid.ColumnSpan="4" Grid.Row="2"
-                       x:Name="noBookFoundText"
-                       FontSize="24" Foreground="White"
-                       HorizontalAlignment="Center" VerticalAlignment="Center"
-                       FontFamily="fonts/#IRANSANS"
-                       FontWeight="Bold" Visibility="Hidden"/>
+                <TextBlock Text="کتابی جهت نمایش وجود ندارد"
+                           Grid.Column="0"
+                           Grid.ColumnSpan="6"
+                           Grid.Row="2"
+                           Margin="0,0,0,70"
+                           x:Name="noBookFoundText"
+                           FontSize="24"
+                           Foreground="Black"
+                           HorizontalAlignment="Center"
+                           VerticalAlignment="Center"
+                           FontFamily="fonts/#IRANSANS"
+                           FontWeight="Bold"
+                           Visibility="Hidden" />
             </Grid>
-        </StackPanel>
+        </DockPanel>
     </Grid>
 </Window>
