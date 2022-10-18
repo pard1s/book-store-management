@@ -10,25 +10,37 @@ The application has following functionalities:
   - Editing profile
   
 use case diagram:
+
 ![image](https://user-images.githubusercontent.com/76449700/196435679-2f599f02-8a83-4633-a280-1925656622d4.png)
 
+
 Class diagram:
+
 ![image](https://user-images.githubusercontent.com/76449700/196436298-1a3f2b8b-2f2e-4a99-bda6-ea634dfafc96.png)
 
+
 collaboration diagram:
+
 ![image](https://user-images.githubusercontent.com/76449700/196435902-17da63d1-21a4-48a4-80f8-32962ca2d3d3.png)
 
+
 State diagram:
+
 ![image](https://user-images.githubusercontent.com/76449700/196435966-48da9fc1-0277-4cf3-8fc1-9348cc65e3a9.png)
 
+
 WND:
+
 ![image](https://user-images.githubusercontent.com/76449700/196436026-dd9e9803-2c81-4cc1-868c-22a44385ff6e.png)
 
+
 CRUD table:
+
 ![image](https://user-images.githubusercontent.com/76449700/196436477-bd437ab5-6357-43c1-9817-4aa89e7fdb06.png)
 
 
 Here are some screenshots of the application:
+
 ![image](https://user-images.githubusercontent.com/76449700/196435334-6be16e99-f96b-4799-9217-c7d988880b1a.png)
 ![image](https://user-images.githubusercontent.com/76449700/196435388-1b01a9cb-6a41-443c-87b1-5e7b43dc9824.png)
 ![image](https://user-images.githubusercontent.com/76449700/196435437-83e12f96-0f83-4087-9be3-02841bea61bf.png)
