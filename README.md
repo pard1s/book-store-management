@@ -3,6 +3,7 @@
 This application is a book store managemnet, and uses C# for the backend, WPf for the GUI, and sqllite for connecting to data base. For the authentication, the passwords are hashed with the SHA 256 method, which returns an array of bytes. We then converted this array to a base64 string, and finally the result would be compared with the hashed password stored in the database (you can try admin/admin to login).
 The application has following functionalities:
   - Login / sign up
+  - Get a list of existing books
   - Adding book
   - Adding customer orders
   - Create / Manage storage
